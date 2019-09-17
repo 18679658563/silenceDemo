@@ -1,0 +1,39 @@
+---
+spring:
+  application:
+    name: eureka-server
+  profiles: server1
+server:
+  port: 9000
+eureka:
+  instance:
+    hostname: server1
+  client:
+    serviceUrl:
+      defaultZone: http://server2:9001/eureka/,http://server3:9002/eureka/
+---
+spring:
+  application:
+    name: eureka-server
+  profiles: server2
+server:
+  port: 9001
+eureka:
+  instance:
+    hostname: server2
+  client:
+    serviceUrl:
+      defaultZone: http://server1:9000/eureka/,http://server3:9002/eureka/
+---
+spring:
+  application:
+    name: eureka-server
+  profiles: server3
+server:
+  port: 9002
+eureka:
+  instance:
+    hostname: server3
+  client:
+    serviceUrl:
+      defaultZone: http://server1:9000/eureka/,http://server2:9001/eureka/
