@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: system
+  cloud:
+    config:
+      discovery:
+        serviceId: config
+        enabled: true
+      profile: default
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/

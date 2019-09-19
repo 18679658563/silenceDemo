@@ -11,25 +11,8 @@
     <artifactId>cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <url>http://maven.apache.org</url>
-    <!-- 设定主仓库，按设定顺序进行查找。 -->
-    <repositories>
-        <repository>
-            <id>repos</id>
-            <name>Repository</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-        </repository>
-    </repositories>
-    <!-- 设定插件仓库 -->
-    <pluginRepositories>
-        <pluginRepository>
-            <id>repos</id>
-            <name>Repository</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-        </pluginRepository>
-    </pluginRepositories>
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <projwwwect.build.sourceEncoding>UTF-8</projwwwect.build.sourceEncoding>
         <java.version>1.8</java.version>
     </properties>
     <dependencyManagement>
@@ -40,23 +23,6 @@
                 <version>Dalston.SR1</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-lang3</artifactId>
-                <version>3.1</version>
-            </dependency>
-
-            <dependency>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-                <version>1.10</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-collections4</artifactId>
-                <version>4.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
