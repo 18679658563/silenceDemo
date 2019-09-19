@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="051535c8-8b6c-4059-bca0-bc9dc77f4dbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/properties/system-default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/properties/system-default.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,7 +69,7 @@
           <entry key="dummy" value="24" />
           <entry key="java" value="2379" />
           <entry key="md" value="322" />
-          <entry key="properties" value="816" />
+          <entry key="properties" value="934" />
           <entry key="xml" value="267" />
           <entry key="yml" value="1192" />
         </counts>
@@ -79,7 +79,7 @@
           <entry key="JAVA" value="2379" />
           <entry key="Markdown" value="322" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Properties" value="816" />
+          <entry key="Properties" value="934" />
           <entry key="XML" value="267" />
           <entry key="YAML" value="1192" />
         </counts>
@@ -91,20 +91,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/resources/bootstrap.yml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="135">
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/src/main/resources/properties/system-default.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -161,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config-server/src/main/java/com/cloud/configserver/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/cloud/configclient/ConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/cloud/configclient/controller/TestController.java" />
@@ -212,6 +211,7 @@
         <option value="$PROJECT_DIR$/config/src/main/java/com/silence/config/ConfigApplication.java" />
         <option value="$PROJECT_DIR$/config/src/main/resources/properties/system-default.yml" />
         <option value="$PROJECT_DIR$/config/src/main/resources/properties/system-default.properties" />
+        <option value="$PROJECT_DIR$/system/src/main/resources/bootstrap.properties" />
       </list>
     </option>
   </component>
@@ -348,7 +348,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568853102480" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568853429456" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/gitspace/vue/vue-element-admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -423,12 +423,12 @@
       <workItem from="1568592614060" duration="15285000" />
       <workItem from="1568709499603" duration="4327000" />
       <workItem from="1568772567984" duration="4259000" />
-      <workItem from="1568789813089" duration="5958000" />
+      <workItem from="1568789813089" duration="6231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58611000" />
+    <option name="totallyTimeSpent" value="58884000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,17 +610,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/properties/system-default.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
         </state>
       </provider>
     </entry>

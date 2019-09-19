@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/18679658563/silenceDemo.git
-          searchPaths: config/src/main/resource/properties
+          searchPaths: config/src/main/resources/properties
 #spring.cloud.config.server.git.username=
 #spring.cloud.config.server.git.password=
 server:
