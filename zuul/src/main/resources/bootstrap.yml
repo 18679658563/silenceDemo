@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: zuul
+  cloud:
+    config:
+      discovery:
+        #配置中心的名称
+        serviceId: config
+        enabled: true
+      profile: default
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
