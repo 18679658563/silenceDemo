@@ -1,13 +1,13 @@
 spring:
   application:
-    name: system
-  cloud:
-    config:
-      discovery:
-        serviceId: config   #配置中心服务名
-        enabled: true   #开启配置服务发现
-      profile: default
-      label: master
+    name: system2
+#  cloud:
+#    config:
+#      discovery:
+#        serviceId: config   #配置中心服务名
+#        enabled: true   #开启配置服务发现
+#      profile: default
+#      label: master
 eureka:
   client:
     serviceUrl:
@@ -16,5 +16,5 @@ eureka:
 management:
   security:
     enabled: false     #SpringBoot 1.5.X 以上默认开通了安全认证，如果不关闭会要求权限
-#server:
-#  port: 9100
+server:
+  port: 9101
