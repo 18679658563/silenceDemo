@@ -23,4 +23,15 @@ public class TestController {
     public String getString(){
         return systemFeign.getString();
     }
+
+    @GetMapping("/feign")
+    public String test() throws Exception{
+        int result = (int)(Math.random()*10);
+        System.out.println(result);
+        if(result >= 5){
+            Thread.sleep(5000);
+        }
+        return "feign";
+    }
+
 }
