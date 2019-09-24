@@ -1,17 +1,22 @@
 spring:
   application:
     name: system
-  cloud:
-    config:
-      discovery:
-        serviceId: config   #配置中心服务名
-        enabled: true   #开启配置服务发现
-      profile: default
-      label: master
+#  cloud:
+#    config:
+#      discovery:
+#        serviceId: config   #配置中心服务名
+#        enabled: true   #开启配置服务发现
+#      profile: default
+#      label: master
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9000/eureka/
 
-#server:
-#  port: 9100
+server:
+  port: 9100
+#开启hystrix
+feign:
+  hystrix:
+    enabled: true
+

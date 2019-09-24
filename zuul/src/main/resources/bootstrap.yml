@@ -1,26 +1,26 @@
 spring:
   application:
     name: zuul
-  cloud:
-    config:
-      discovery:
-        #配置中心的名称
-        serviceId: config
-        enabled: true
-      profile: default
-      label: master
+#  cloud:
+#    config:
+#      discovery:
+#        #配置中心的名称
+#        serviceId: config
+#        enabled: true
+#      profile: default
+#      label: master
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9000/eureka/
-#server:
-#  port: 9500
+server:
+  port: 9500
 
-#zuul:
-#  routes:
-#    user-service:
-#      path: /api/**
-#      serviceId: system
-#    test:
-#      path: /user/**
-#      serviceId: system2
+zuul:
+  routes:
+    user-service:
+      path: /api/**
+      serviceId: system
+    test:
+      path: /user/**
+      serviceId: system2

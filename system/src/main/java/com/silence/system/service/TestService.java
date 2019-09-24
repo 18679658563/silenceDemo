@@ -18,14 +18,9 @@ public class TestService {
     @Autowired
     private SystemFeign systemFeign;
 
-    @HystrixCommand(fallbackMethod = "fallback")
     public String getTest(){
         systemFeign.getFeign();
         return "true";
-    }
-
-    public String fallback(){
-        return "false";
     }
 
 }
