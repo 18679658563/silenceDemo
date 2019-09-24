@@ -1,6 +1,5 @@
 package com.silence.system.service;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.silence.system.feign.SystemFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
