@@ -1,12 +1,12 @@
 spring:
   application:
-    name: config
+    name: com.silence.common.config
   cloud:
     config:
       server:
         git:
           uri: https://github.com/18679658563/silenceDemo.git
-          searchPaths: config/src/main/resources/properties
+          searchPaths: com.silence.common.config/src/main/resources/properties
         username: m18679658563@163.com
         password: txw19940603
 server:

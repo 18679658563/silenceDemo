@@ -2,12 +2,12 @@ spring:
   application:
     name: zuul
 #  cloud:
-#    config:
+#    com.silence.common.config:
 #      discovery:
 #        #配置中心的名称
-#        serviceId: config
+#        serviceId: com.silence.common.config
 #        enabled: true
-#      profile: default
+#      profile: default;
 #      label: master
 eureka:
   client:

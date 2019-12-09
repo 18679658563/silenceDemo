@@ -1,22 +1,42 @@
+server:
+  port: 9100
 spring:
   application:
     name: system
 #  cloud:
-#    config:
+#    com.silence.common.config:
 #      discovery:
-#        serviceId: config   #配置中心服务名
+#        serviceId: com.silence.common.config   #配置中心服务名
 #        enabled: true   #开启配置服务发现
 #      profile: default
 #      label: master
+  datasource:
+    name: mysql-admin
+    url: jdbc:mysql://localhost:3306/silence?useUnicode=true&characterEncoding=UTF8&useSSL=false
+    username: root
+    password: tian940603
+    #     使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9000/eureka/
 
-server:
-  port: 9100
-#开启hystrix
-feign:
-  hystrix:
-    enabled: true
-
+logging:
+  level:
+    com.eap: DEBUG
+    tk.mybatis: DEBUG

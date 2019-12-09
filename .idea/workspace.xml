@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="051535c8-8b6c-4059-bca0-bc9dc77f4dbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/silence/common/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/silence/common/util/PinYingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/properties/zuul-default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/properties/zuul-default.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/port.md" beforeDir="false" afterPath="$PROJECT_DIR$/port.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/SystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/SystemFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/TestClientFallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system2/src/main/java/com/silence/system2/System2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system2/src/main/java/com/silence/system2/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system2/src/main/java/com/silence/system2/feign/SystemFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system2/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system2/src/test/java/com/silence/system2/System2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,6 +49,10 @@
     <ignored path="$PROJECT_DIR$/system/target/" />
     <ignored path="$PROJECT_DIR$/zuul/target/" />
     <ignored path="$PROJECT_DIR$/system2/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/author/target/" />
+    <ignored path="$PROJECT_DIR$/manage/target/" />
+    <ignored path="$PROJECT_DIR$/manage/system/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,61 +63,65 @@
     <session id="259225405">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="83" />
+          <entry key="java" value="185" />
           <entry key="json" value="6" />
-          <entry key="md" value="15" />
-          <entry key="properties" value="61" />
-          <entry key="xml" value="60" />
-          <entry key="yml" value="35" />
+          <entry key="md" value="18" />
+          <entry key="properties" value="67" />
+          <entry key="xml" value="104" />
+          <entry key="yml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="83" />
+          <entry key="JAVA" value="185" />
           <entry key="JSON" value="6" />
-          <entry key="Markdown" value="15" />
-          <entry key="Properties" value="61" />
-          <entry key="XML" value="60" />
-          <entry key="YAML" value="35" />
+          <entry key="Markdown" value="18" />
+          <entry key="Properties" value="67" />
+          <entry key="XML" value="104" />
+          <entry key="YAML" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="24" />
-          <entry key="java" value="3278" />
-          <entry key="md" value="341" />
-          <entry key="properties" value="1025" />
-          <entry key="xml" value="315" />
-          <entry key="yml" value="1477" />
+          <entry key="dummy" value="25" />
+          <entry key="java" value="5982" />
+          <entry key="md" value="363" />
+          <entry key="properties" value="1057" />
+          <entry key="xml" value="531" />
+          <entry key="yml" value="1733" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3278" />
-          <entry key="Markdown" value="341" />
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Properties" value="1025" />
-          <entry key="XML" value="315" />
-          <entry key="YAML" value="1477" />
+          <entry key="JAVA" value="5982" />
+          <entry key="Markdown" value="363" />
+          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="Properties" value="1057" />
+          <entry key="XML" value="531" />
+          <entry key="YAML" value="1733" />
         </counts>
       </usages-collector>
     </session>
@@ -98,79 +130,14 @@
     <favorites_list name="silenceDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="78" column="123" selection-start-line="78" selection-start-column="123" selection-end-line="78" selection-end-column="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system2/src/main/java/com/silence/system2/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/TestService.java">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/MenuService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="560">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/SystemFeign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/TestClientFallback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/SystemApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,10 +157,14 @@
     <findStrings>
       <find>peer</find>
       <find>8</find>
+      <find>Role</find>
+      <find>role</find>
     </findStrings>
     <replaceStrings>
       <replace>server</replace>
       <replace>9</replace>
+      <replace>Org</replace>
+      <replace>Menu</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -211,57 +182,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stream/src/main/java/com/cloud/stream/rabbit/SinkReceiver.java" />
-        <option value="$PROJECT_DIR$/stream/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/sleuth/src/main/java/com/cloud/sleuth/SleuthApplication.java" />
-        <option value="$PROJECT_DIR$/sleuth-2/src/main/java/com/cloud/sleuth/SleuthApplication.java" />
-        <option value="$PROJECT_DIR$/sleuth-2/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/sleuth/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/sleuth-2/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
-        <option value="$PROJECT_DIR$/zipkin-server/src/main/java/com/cloud/zipkinserver/ZipkinServerApplication.java" />
-        <option value="$PROJECT_DIR$/zipkin-server/src/test/java/com/cloud/zipkinserver/ZipkinServerApplicationTests.java" />
-        <option value="$PROJECT_DIR$/sleuth/pom.xml" />
-        <option value="$PROJECT_DIR$/sleuth-2/pom.xml" />
-        <option value="$PROJECT_DIR$/sleuth/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/sleuth-2/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/api-geteway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/application-server1.properties" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/application-server2.properties" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/application-server3.properties" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/application-server1.yml" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/silence/server/ServerApplication.java" />
-        <option value="$PROJECT_DIR$/server/pom.xml" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/config/pom.xml" />
-        <option value="$PROJECT_DIR$/system/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/config/src/main/java/com/silence/config/ConfigApplication.java" />
-        <option value="$PROJECT_DIR$/config/src/main/resources/properties/system-default.yml" />
-        <option value="$PROJECT_DIR$/system/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/zuul/src/main/java/com/cloud/zuul/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/port.md" />
-        <option value="$PROJECT_DIR$/config/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/TestController.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/SystemApplication.java" />
-        <option value="$PROJECT_DIR$/zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/system2/pom.xml" />
-        <option value="$PROJECT_DIR$/system2/src/main/java/com/silence/system2/System2Application.java" />
-        <option value="$PROJECT_DIR$/system2/src/main/java/com/silence/system2/feign/SystemFeign.java" />
-        <option value="$PROJECT_DIR$/system2/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/config/src/main/resources/properties/zuul-default.properties" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/SystemApplication.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/config/src/main/resources/properties/system-default.properties" />
-        <option value="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/system2/src/main/java/com/silence/system2/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/system/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/system/pom.xml" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/TestClientFallback.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/SystemFeign.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/util/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/util/PinYingUtil.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/util/TreeNode.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/util/TreeUtil.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Test.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/TestService.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/TestMapper.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/util/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/silence/common/util/AESUtil.java" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/SystemApplication.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/silence/common/util/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/silence/common/config/JedisConfig.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/author/pom.xml" />
+        <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/port.md" />
+        <option value="$PROJECT_DIR$/author/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/system2/pom.xml" />
+        <option value="$PROJECT_DIR$/manage/system/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/manage/system/pom.xml" />
+        <option value="$PROJECT_DIR$/manage/system/src/main/java/com/silence/system/SystemApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/system/pom.xml" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/UserService.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Org.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/silence/common/entity/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/User.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Role.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Menu.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Dict.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/OrgMapper.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/MenuMapper.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/ELementMapper.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/DictMapper.java" />
+        <option value="$PROJECT_DIR$/system/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/OrgService.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/ElementService.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/DictService.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/OrgController.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/DictController.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/ElementController.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/MenuService.java" />
       </list>
     </option>
   </component>
@@ -281,15 +252,24 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="system" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="system" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
     <option name="y" value="32" />
     <option name="width" value="1280" />
-    <option name="height" value="1343" />
+    <option name="height" value="1341" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -371,113 +351,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="system2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="system2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="system2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="system2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="system2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="system2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="system2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="system2" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="system2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="system2" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -496,27 +375,35 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/silence/workspace/silenceDemo/system/src/main/resources/bootstrap.yml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569311512734" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575861932622" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/gitspace/vue/vue-element-admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/author" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1644319" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.silence.system" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.silence.system.controller" />
+      <recent name="com.silence.system.service" />
+      <recent name="com.silence.system.mapper" />
+      <recent name="contant" />
+      <recent name="util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/server/src/main/resources" />
       <recent name="$PROJECT_DIR$/sleuth/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -546,13 +433,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="System2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="system2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.silence.system2.System2Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="system" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.silence.system.SystemApplication" />
@@ -572,8 +452,10 @@
       <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.SystemApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
-      <item itemvalue="Spring Boot.System2Application" />
     </list>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -595,12 +477,22 @@
       <workItem from="1568772567984" duration="4259000" />
       <workItem from="1568789813089" duration="21979000" />
       <workItem from="1569197279598" duration="4898000" />
-      <workItem from="1569203666401" duration="17370000" />
+      <workItem from="1569203666401" duration="18082000" />
+      <workItem from="1570666562671" duration="3605000" />
+      <workItem from="1570671342602" duration="11000" />
+      <workItem from="1574326986642" duration="6000" />
+      <workItem from="1575445004976" duration="814000" />
+      <workItem from="1575512565713" duration="13900000" />
+      <workItem from="1575602410047" duration="7562000" />
+      <workItem from="1575850784004" duration="4431000" />
+      <workItem from="1575858152534" duration="676000" />
+      <workItem from="1575858832453" duration="1185000" />
+      <workItem from="1575860822966" duration="1225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96900000" />
+    <option name="totallyTimeSpent" value="131027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,7 +507,41 @@
     <frame x="0" y="32" width="2560" height="1343" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982906" visible="true" weight="0.21257006" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671486" visible="true" weight="0.18574859" />
+      <window_info id="Structure" order="1" sideWeight="0.5017094" side_tool="true" weight="0.21257006" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50328517" side_tool="true" visible="true" weight="0.18574859" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35470086" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919936" visible="true" weight="0.34957266" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32935154" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959967" weight="0.33162394" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004003" side_tool="true" weight="0.33247864" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32905984" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32905984" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32991454" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24979983" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.4403523" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982906" visible="true" weight="0.18214571" />
       <window_info id="Structure" order="1" sideWeight="0.5017094" side_tool="true" weight="0.21257006" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -624,59 +550,25 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.491453" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919936" weight="0.4854701" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919936" visible="true" weight="0.35042736" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32935154" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959967" visible="true" weight="0.33247864" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959967" weight="0.33247864" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004003" side_tool="true" weight="0.33247864" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32905984" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32935154" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32905984" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32991454" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3022418" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.21257006" />
-      <window_info id="Structure" order="1" sideWeight="0.50127226" side_tool="true" weight="0.25540432" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50127226" side_tool="true" weight="0.25540432" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.491453" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959967" weight="0.46752137" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32935154" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33247864" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004003" side_tool="true" weight="0.3993174" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32905984" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32935154" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3022418" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.30184147" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -686,51 +578,101 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sleuth-2/src/test/java/com/cloud/sleuth/SleuthApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/sleuth/src/main/java/com/cloud/sleuth/SleuthApplication.java" />
-    <entry file="file://$PROJECT_DIR$/sleuth-2/src/main/java/com/cloud/sleuth/SleuthApplication.java" />
-    <entry file="file://$PROJECT_DIR$/sleuth/src/main/resources/bootstrap.properties" />
-    <entry file="file://$PROJECT_DIR$/build/trace-1.json" />
-    <entry file="file://$PROJECT_DIR$/sleuth/src/main/resources/logback-spring.xml" />
-    <entry file="file://$PROJECT_DIR$/build/bootstrap.json" />
-    <entry file="file://$PROJECT_DIR$/build/springAppName_IS_UNDEFINED.json" />
-    <entry file="file://$PROJECT_DIR$/build/trace-2.json" />
-    <entry file="file://$PROJECT_DIR$/sleuth-2/src/main/resources/bootstrap.properties" />
-    <entry file="file://$PROJECT_DIR$/sleuth-2/src/main/resources/logback-spring.xml" />
-    <entry file="file://$PROJECT_DIR$/zipkin-server/src/test/java/com/cloud/zipkinserver/ZipkinServerApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/sleuth-2/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/sleuth/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/zipkin-server/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/sleuth/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/sleuth-2/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/java/com/cloud/zipkinserver/ZipkinServerApplication.java" />
-    <entry file="file://$PROJECT_DIR$/api-geteway/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-server2.yml" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-server3.yml" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-server1.yml" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/silence/server/ServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="81">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/TestController.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/silence/common/config/JedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="456">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/silence/common/util/JedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="-108">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/TestMapper.java" />
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/TestService.java" />
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/SystemFeign.java" />
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/TestClientFallback.java" />
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/silence/system/feign/SystemFeign.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system2/HELP.md" />
+    <entry file="file://$PROJECT_DIR$/auth/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system2/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/manage/system/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/manage/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="60" column="41" lean-forward="true" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/system/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/silence/system/SystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/system/src/main/java/com/silence/system/SystemApplication.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -744,147 +686,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/cloud/zuul/ZuulApplication.java">
+    <entry file="file://$PROJECT_DIR$/system/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="-297">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <marker date="1575859036630" expanded="true" signature="2896:3079" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/silence/config/ConfigApplication.java">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Org.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/silence/common/entity/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="351">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="623" selection-start-line="623" selection-end-line="623" />
+        <state relative-caret-position="-3">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        <state relative-caret-position="861">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Dict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="567">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system2/src/main/java/com/silence/system2/System2Application.java">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Element.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/silenceDemo.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system2/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="324">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/OrgMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="61" />
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/properties/zuul-default.properties">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/RoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="351">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system2/src/main/java/com/silence/system2/feign/SystemFeign.java">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/ElementMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/DictMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/silence/common/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="35" column="70" lean-forward="true" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="378">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system2/pom.xml">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/OrgService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="41" column="21" selection-start-line="38" selection-start-column="4" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/properties/system-default.properties">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/ElementService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+        <state relative-caret-position="54">
+          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/DictService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/DictController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/ElementController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="16" selection-end-column="12" />
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.15/tomcat-embed-core-8.5.15.jar!/org/apache/tomcat/util/net/NioEndpoint.class">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="353" selection-start-line="353" selection-end-line="353" />
+        <state relative-caret-position="405">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/OrgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/SystemApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system2/src/main/java/com/silence/system2/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="324">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -893,39 +925,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="209">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/pom.xml">
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/MenuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="78" column="123" selection-start-line="78" selection-start-column="123" selection-end-line="78" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/TestClientFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/SystemFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="560">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -984,7 +992,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>config</last-edited>
+          <last-edited>test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
