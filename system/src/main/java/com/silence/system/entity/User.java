@@ -15,7 +15,7 @@ import java.util.Date;
  * Time: 下午3:45
  */
 @Data
-@Table(name = "base_user")
+@Table(name = "sys_user")
 public class User extends BaseEntity {
 
     private String username;
@@ -32,9 +32,6 @@ public class User extends BaseEntity {
 
     @Column(name = "mobile_phone")
     private String mobilePhone;
-
-    @Column(name = "tel_phone")
-    private String telPhone;
 
     private String email;
 

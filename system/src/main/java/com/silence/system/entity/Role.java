@@ -4,7 +4,6 @@ import com.silence.common.entity.BaseEntity;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.util.Date;
 
 /***
  * Created with IntelliJ IDEA.
@@ -14,7 +13,7 @@ import java.util.Date;
  * Time: 上午10:41
  */
 @Data
-@Table(name = "base_role")
+@Table(name = "sys_role")
 public class Role extends BaseEntity {
 
     private String code;

@@ -2,31 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="051535c8-8b6c-4059-bca0-bc9dc77f4dbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/silence/common/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/silence/common/util/PinYingUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/properties/zuul-default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/properties/zuul-default.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/port.md" beforeDir="false" afterPath="$PROJECT_DIR$/port.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/SystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/SystemFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/feign/TestClientFallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system2/src/main/java/com/silence/system2/System2Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system2/src/main/java/com/silence/system2/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system2/src/main/java/com/silence/system2/feign/SystemFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system2/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system2/src/test/java/com/silence/system2/System2ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/SystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/entity/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/feign/SystemFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/feign/TestClientFallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/mapper/TestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/silence/system/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/test/java/com/silence/system/SystemApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Dict.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Dict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Org.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Org.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,7 +80,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="185" />
+          <entry key="java" value="194" />
           <entry key="json" value="6" />
           <entry key="md" value="18" />
           <entry key="properties" value="67" />
@@ -96,7 +92,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="185" />
+          <entry key="JAVA" value="194" />
           <entry key="JSON" value="6" />
           <entry key="Markdown" value="18" />
           <entry key="Properties" value="67" />
@@ -107,7 +103,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="25" />
-          <entry key="java" value="5982" />
+          <entry key="java" value="6006" />
           <entry key="md" value="363" />
           <entry key="properties" value="1057" />
           <entry key="xml" value="531" />
@@ -116,7 +112,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5982" />
+          <entry key="JAVA" value="6006" />
           <entry key="Markdown" value="363" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="Properties" value="1057" />
@@ -131,11 +127,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/MenuService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="-783">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Org.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-256">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/silence/common/entity/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-364">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Dict.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,7 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/src/main/java/util/DateUtil.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/util/JsonUtil.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/util/PinYingUtil.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/util/TreeNode.java" />
@@ -211,12 +272,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/system/pom.xml" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/UserService.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Org.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/silence/common/entity/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/User.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Role.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Menu.java" />
-        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Dict.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/OrgMapper.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/RoleMapper.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/mapper/MenuMapper.java" />
@@ -233,6 +289,12 @@
         <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/DictController.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/ElementController.java" />
         <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Dict.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Element.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Menu.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Org.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Role.java" />
+        <option value="$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/User.java" />
       </list>
     </option>
   </component>
@@ -267,8 +329,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="32" />
-    <option name="width" value="1280" />
+    <option name="y" value="34" />
+    <option name="width" value="1270" />
     <option name="height" value="1341" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -311,6 +373,41 @@
             <path>
               <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="silenceDemo" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -351,7 +448,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="silenceDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -378,10 +475,10 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/silence/workspace/silenceDemo/system/src/main/resources/bootstrap.yml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575861932622" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575960598979" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/author" />
+    <property name="last_opened_file_path" value="$USER_HOME$/gitspace/silence/kitty" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -487,12 +584,12 @@
       <workItem from="1575850784004" duration="4431000" />
       <workItem from="1575858152534" duration="676000" />
       <workItem from="1575858832453" duration="1185000" />
-      <workItem from="1575860822966" duration="1225000" />
+      <workItem from="1575860822966" duration="8778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131027000" />
+    <option name="totallyTimeSpent" value="138580000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,23 +604,23 @@
     <frame x="0" y="32" width="2560" height="1343" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671486" visible="true" weight="0.18574859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62943494" visible="true" weight="0.18534827" />
       <window_info id="Structure" order="1" sideWeight="0.5017094" side_tool="true" weight="0.21257006" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50328517" side_tool="true" visible="true" weight="0.18574859" />
+      <window_info id="Favorites" order="6" sideWeight="0.37056506" side_tool="true" weight="0.18574859" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35470086" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919936" visible="true" weight="0.34957266" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919936" weight="0.34957266" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32935154" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959967" weight="0.33162394" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959967" visible="true" weight="0.33162394" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004003" side_tool="true" weight="0.33247864" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32905984" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32905984" />
@@ -596,13 +693,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/controller/TestController.java" />
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/silence/common/config/JedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -693,70 +783,6 @@
           <folding>
             <marker date="1575859036630" expanded="true" signature="2896:3079" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Org.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/silence/common/entity/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Dict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -932,8 +958,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/service/MenuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="702">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/silence/common/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/silence/common/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Dict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Org.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/src/main/java/com/silence/system/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

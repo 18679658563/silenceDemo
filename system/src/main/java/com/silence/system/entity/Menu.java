@@ -11,7 +11,7 @@ import javax.persistence.*;
  * Date: 2019-12-09
  * Time: 上午10:45
  */
-@Table(name = "base_menu")
+@Table(name = "sys_menu")
 @Data
 public class Menu extends BaseEntity {
 

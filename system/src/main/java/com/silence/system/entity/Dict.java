@@ -14,7 +14,7 @@ import javax.persistence.Table;
  * Time: 上午11:05
  */
 @Data
-@Table(name = "base_dict")
+@Table(name = "sys_dict")
 public class Dict extends BaseEntity {
 
     private String code;
@@ -32,10 +32,4 @@ public class Dict extends BaseEntity {
     private String description;
 
     private String value;
-
-    private String lspell;
-
-    private String uspell;
-
-    private String initials;
 }

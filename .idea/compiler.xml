@@ -16,7 +16,6 @@
         <sourceOutputDir name="../author/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../author/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="auth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

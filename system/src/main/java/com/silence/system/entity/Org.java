@@ -11,7 +11,7 @@ import javax.persistence.*;
  * Date: 2019-12-09
  * Time: 上午10:43
  */
-@Table(name = "base_org")
+@Table(name = "sys_org")
 @Data
 public class Org {
 
@@ -49,7 +49,4 @@ public class Org {
      */
     private String parentid;
 
-    private String lspell;
-    private String initials;
-    private String uspell;
 }

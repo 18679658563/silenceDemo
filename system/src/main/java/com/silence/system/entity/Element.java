@@ -13,7 +13,7 @@ import javax.persistence.Table;
  * Date: 2019-12-09
  * Time: 上午10:47
  */
-@Table(name = "base_element")
+@Table(name = "sys_element")
 @Data
 public class Element extends BaseEntity {
 
